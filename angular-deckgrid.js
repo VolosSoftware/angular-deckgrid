@@ -12,9 +12,9 @@
  *
  */
 
-angular.module('akoenig.deckgrid', []);
+angular.module('deckgrid', []);
 
-angular.module('akoenig.deckgrid').directive('deckgrid', [
+angular.module('deckgrid').directive('deckgrid', [
 
     'DeckgridDescriptor',
 
@@ -38,7 +38,7 @@ angular.module('akoenig.deckgrid').directive('deckgrid', [
  *
  */
 
-angular.module('akoenig.deckgrid').factory('DeckgridDescriptor', [
+angular.module('deckgrid').factory('DeckgridDescriptor', [
 
     'Deckgrid',
     '$templateCache',
@@ -159,7 +159,7 @@ angular.module('akoenig.deckgrid').factory('DeckgridDescriptor', [
  *
  */
 
-angular.module('akoenig.deckgrid').factory('Deckgrid', [
+angular.module('deckgrid').factory('Deckgrid', [
 
     '$window',
     '$log',
